@@ -9,7 +9,7 @@ const Course = () => {
 
     return(
         <>
-        <img src={image} alt="picture of course map"/>
+        <img src={image} alt="course map"/>
         </>
     )
 }
