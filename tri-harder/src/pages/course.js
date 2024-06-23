@@ -10,7 +10,7 @@ const Course = () => {
 
     return(
         <>
-        <img src={image}/>
+        <img src={image} alt="picture of course map"/>
         </>
     )
 }
