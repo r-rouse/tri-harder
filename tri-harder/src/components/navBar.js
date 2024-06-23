@@ -21,8 +21,8 @@ const NavBar = () => {
                                 8====D
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/Course">Course Info</a></li>
-                                <li><a class="dropdown-item" href="/Register">Register</a></li>
+                                <li><a class="dropdown-item" href="/course">Course Info</a></li>
+                                <li><a class="dropdown-item" href="/register">Register</a></li>
                                 <li><a class="dropdown-item" href="/">FAQ</a></li>
                             </ul>
                         </li>
