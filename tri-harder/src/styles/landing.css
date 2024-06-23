@@ -1,0 +1,9 @@
+h1 {
+    font-size: 20rem; /* Huge font size */
+    font-weight: bold; /* Bold text */
+    color: #9d7d7d; /* Dark color */
+    margin: 0;
+  }
+  image {
+    border: 1px solid red;
+  }
