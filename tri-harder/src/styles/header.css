@@ -16,11 +16,11 @@
   
   /* Style the video to take up the full container */
   .elementor-background-video-hosted {
-    width: 100%;
+    width: 1630.22px;
+    width: 1630.22px;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default inline spacing */
   }
-  
   /* Position the logo absolutely over the video */
   .logo {
     position: absolute;
