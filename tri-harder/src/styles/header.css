@@ -24,12 +24,14 @@
   /* Position the logo absolutely over the video */
   .logo {
     position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    left: 60px; /* Adjust the left position as needed */
+    /* top: 20px; Adjust the top position as needed */
+    /* left: 60px; Adjust the left position as needed */
     color: rgb(230, 218, 218); /* Set the logo text color */
     font-size: 300px; /* Adjust the font size of the logo */
     font-weight: bold; /* Make the logo text bold */
     z-index: 1; 
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
   }
 
 .header-container { 
@@ -40,6 +42,7 @@
     min-width: 100 vw;
     background-color: transparent;
     color: aliceblue;
+
 }
 
 img {
@@ -59,9 +62,9 @@ video::-webkit-media-controls {
   /* Medium screens (tablets, 768px and up) */
   @media (max-width: 768px) {
     .logo {
-        position: absolute;
+        /* position: absolute; */
     top: 20px; /* Adjust the top position as needed */
-    left: 60px; /* Adjust the left position as needed */
+    /* left: 60px; Adjust the left position as needed */
     color: rgb(230, 218, 218); /* Set the logo text color */
     font-size: 100px; /* Adjust the font size of the logo */
     font-weight: bold; /* Make the logo text bold */
@@ -72,10 +75,10 @@ video::-webkit-media-controls {
   /* Small screens (mobile phones, 576px and up) */
   @media (max-width: 576px) {
     .logo {
-        position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    left: 60px; /* Adjust the left position as needed */
-    color: rgb(230, 218, 218); /* Set the logo text color */
+        /* position: absolute; */
+    top: 120px; /* Adjust the top position as needed */
+    /* left: 60px; Adjust the left position as needed */
+    color: rgb(250, 247, 247); /* Set the logo text color */
     font-size: 80px; /* Adjust the font size of the logo */
     font-weight: bold; /* Make the logo text bold */
     z-index: 1; 
@@ -85,9 +88,9 @@ video::-webkit-media-controls {
   /* Extra small screens (mobile phones, less than 576px) */
   @media (max-width: 375px) {
     .logo {
-        position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    left: 60px; /* Adjust the left position as needed */
+        /* position: absolute; */
+    top: 220px; /* Adjust the top position as needed */
+    /* left: 30px; Adjust the left position as needed */
     color: rgb(230, 218, 218); /* Set the logo text color */
     font-size: 60px; /* Adjust the font size of the logo */
     font-weight: bold; /* Make the logo text bold */

@@ -7,24 +7,26 @@ const Header = () => {
     const videoRef = useRef(null);
 
     useEffect(() => {
-      const video = videoRef.current;
-      if (video) {
-        const playPromise = video.play();
-        if (playPromise !== undefined) {
-          playPromise.then(() => {
-            // Autoplay started
-          }).catch(error => {
-            // Autoplay failed
-            console.log('Autoplay failed:', error);
-          });
+        const video = videoRef.current;
+        if (video) {
+            const playPromise = video.play();
+            if (playPromise !== undefined) {
+                playPromise.then(() => {
+                    // Autoplay started
+                }).catch(error => {
+                    // Autoplay failed
+                    console.log('Autoplay failed:', error);
+                });
+            }
         }
-      }
     }, []);
     return (
         <div className="component-container">
             <div className="header-container">
                 <div className="header-logo">
-                    <h1 className="logo">TRI-HARDER</h1>
+                    <div className="title-container">
+                        <h1 className="logo">TRI-HARDER</h1>
+                    </div>
                     <video
                         ref={videoRef}
                         autoPlay
