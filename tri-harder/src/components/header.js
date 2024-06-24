@@ -10,7 +10,7 @@ const Header = () => {
             <div className="header-container">
                 <div className="header-logo">
                     <h1 className="logo">TRI-HARDER</h1>
-                  <video autoPlay loop muted class="elementor-background-video-hosted elementor-html5-video"  src="https://runlongbeach.com/wp-content/uploads/2022/10/LBM-Horizontal-for-Web.mp4" ></video>
+                  <video autoPlay loop muted playsinline class="elementor-background-video-hosted elementor-html5-video"  src="https://runlongbeach.com/wp-content/uploads/2022/10/LBM-Horizontal-for-Web.mp4" ></video>
                 </div>
             </div>
             <div className="logo-container">
