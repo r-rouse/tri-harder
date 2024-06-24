@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/header.css"
 import NavBar from "./navBar";
-import Landing from "../pages/landing";
 
 const Header = () => {
 
