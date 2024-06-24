@@ -51,6 +51,9 @@ img {
     color: aliceblue;
     margin: 2vw;
 }
+video::-webkit-media-controls {
+    display: none !important;
+  }
 /* Default font size */
   
   /* Medium screens (tablets, 768px and up) */
