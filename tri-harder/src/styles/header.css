@@ -4,8 +4,35 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+/* Container for the video and logo */
+.header-logo {
+    position: relative; /* Relative positioning for the container */
+    width: 100%;
+    /* max-width: 800px; Adjust the max width as needed */
+    overflow: hidden; /* Hide overflow */
+    background-color: aqua;
+    opacity: 0.6;
+  }
+  
+  /* Style the video to take up the full container */
+  .elementor-background-video-hosted {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline spacing */
+  }
+  
+  /* Position the logo absolutely over the video */
+  .logo {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 60px; /* Adjust the left position as needed */
+    color: rgb(230, 218, 218); /* Set the logo text color */
+    font-size: 300px; /* Adjust the font size of the logo */
+    font-weight: bold; /* Make the logo text bold */
+    z-index: 1; 
+  }
 
-.header-container {
+.header-container { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +40,14 @@
     min-width: 100 vw;
     background-color: transparent;
     color: aliceblue;
-    /* Lighter Gray */
 }
 
 img {
     max-width: 10vw;
     height: auto;
+}
+.date{
+    font-size: large;
+    color: aliceblue;
+    margin: 2vw;
 }
