@@ -1,15 +1,16 @@
 // NavBar.js
 import React from 'react';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Countdown from './countdown';
 
 
 const NavBar = () => {
+    const targetDate = "2024-08-11T06:59:59";
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    ~
-                    ~
+                    HOME
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,7 +28,7 @@ const NavBar = () => {
                             </ul>
                         </li>
                     </ul>
-
+                    <Countdown targetDate={targetDate}/>
                 </div>
             </div>
         </nav>

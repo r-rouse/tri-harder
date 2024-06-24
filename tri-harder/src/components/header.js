@@ -9,9 +9,7 @@ const Header = () => {
         <div className="component-container">
             <div className="header-container">
                 <div className="header-logo">
-                  
-                </div>
-                <div className="nav-bar-container">
+                  <h2>AUG 11</h2>
                 </div>
             </div>
             <div className="logo-container">

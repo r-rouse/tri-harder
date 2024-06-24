@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/registration.css'
 import emailjs from 'emailjs-com';
 
 const RegistrationForm = () => {
