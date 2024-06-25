@@ -36,8 +36,16 @@ const RegistrationForm = () => {
       templateParams,
       'hPQMKbUfaX7z2aBSi' // Replace with your EmailJS user ID (public key)
     ).then((response) => {
-      console.log('SUCCESS!', response.status, response.text, templateParams);
-      alert('Form submitted successfully!');
+      console.log('SUCCESS!', response.status, response.text);
+      // Reset form values
+      setFormData({
+          name: '',
+          email: '',
+          time: '',
+          message: '',
+      });
+      // Show success message
+      alert('An email has been sent to the administrator and a confirmation email was sent to confirm your registration.');
     }, (error) => {
       console.log('FAILED...', error);
       alert('Form submission failed. Please try again.');
