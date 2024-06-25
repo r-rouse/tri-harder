@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.logo-container {
+/* .logo-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -54,16 +54,6 @@
 .elementor-background-video-hosted-elementor-html5-video{
     object-fit: contain;
     min-width: 100%;
-}
-/* .header-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 10vh;
-    min-width: 100 vw;
-    background-color: transparent;
-    color: aliceblue;
-
 } */
 
 img {
