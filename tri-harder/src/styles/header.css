@@ -1,15 +1,20 @@
 .component-container {
-    height: 100vh; /* Full height of the viewport */
-    width: 100vw; /* Full width of the viewport */
-    position: relative; /* Needed for absolute positioning inside */
+    height: 100vh;
+    /* Full height of the viewport */
+    width: 100vw;
+    /* Full width of the viewport */
+    position: relative;
+    /* Needed for absolute positioning inside */
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Hide anything going out of bounds */
+    overflow: hidden;
+    /* Hide anything going out of bounds */
 }
 
 .header-container {
     position: absolute;
-    bottom: 150; /* Aligns the container at the bottom */
+    bottom: 150;
+    /* Aligns the container at the bottom */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,88 +22,136 @@
 }
 
 .header-logo {
-    position: relative; /* Relative positioning for the container */
+    position: relative;
+    /* Relative positioning for the container */
     min-width: 100%;
     /* max-width: 800px; Adjust the max width as needed */
-    overflow: hidden; /* Hide overflow */
+    overflow: hidden;
+    /* Hide overflow */
     opacity: 0.6;
-  }
-  
-  /* Style the video to take up the full container */
-  .elementor-background-video-hosted {
+}
+
+/* Style the video to take up the full container */
+.elementor-background-video-hosted {
     width: 1630.22px;
     width: 1630.22px;
     object-fit: contain;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove default inline spacing */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove default inline spacing */
     position: absolute;
 
-  }
-  /* Position the logo absolutely over the video */
-  .logo {
+}
+
+/* Position the logo absolutely over the video */
+.logo {
     position: absolute;
     /* top: 20px; Adjust the top position as needed */
     /* left: 60px; Adjust the left position as needed */
-    color: rgb(230, 218, 218); /* Set the logo text color */
-    font-size: 20vw; /* Adjust the font size of the logo */
-    font-weight: bold; /* Make the logo text bold */
-    z-index: 1; 
-  }
-.elementor-background-video-hosted-elementor-html5-video{
+    color: rgb(230, 218, 218);
+    /* Set the logo text color */
+    font-size: 20vw;
+    /* Adjust the font size of the logo */
+    font-weight: bold;
+    /* Make the logo text bold */
+    z-index: 1;
+}
+
+.elementor-background-video-hosted-elementor-html5-video {
     object-fit: contain;
     min-width: 100%;
-} 
+}
 
 img {
     max-width: 10vw;
     height: auto;
 }
-.date{
+
+.date {
     font-size: large;
     color: aliceblue;
     margin: 2vw;
 }
+
 video::-webkit-media-controls {
     display: none !important;
-  }
+}
+
 /* Default font size */
-  
-  /* Medium screens (tablets, 768px and up) */
-  @media (max-width: 768px) {
+
+/* Medium screens (tablets, 768px and up) */
+@media (max-width: 768px) {
     .logo {
         /* position: absolute; */
-    top: 20px; /* Adjust the top position as needed */
-    /* left: 60px; Adjust the left position as needed */
-    color: rgb(230, 218, 218); /* Set the logo text color */
-    font-size: 30vw; /* Adjust the font size of the logo */
-    font-weight: bold; /* Make the logo text bold */
-    z-index: 1; 
+        top: 20px;
+        /* Adjust the top position as needed */
+        /* left: 60px; Adjust the left position as needed */
+        color: rgb(230, 218, 218);
+        /* Set the logo text color */
+        font-size: 30vw;
+        /* Adjust the font size of the logo */
+        font-weight: bold;
+        /* Make the logo text bold */
+        z-index: 1;
     }
-  }
-  
-  /* Small screens (mobile phones, 576px and up) */
-  @media (max-width: 576px) {
+
+    .register-button {
+        top: 20px;
+        /* Adjust the top position as needed */
+        z-index: 1;
+
+    }
+}
+
+/* Small screens (mobile phones, 576px and up) */
+@media (max-width: 576px) {
     .logo {
         /* position: absolute; */
-    top: 120px; /* Adjust the top position as needed */
-    /* left: 60px; Adjust the left position as needed */
-    color: rgb(250, 247, 247); /* Set the logo text color */
-    font-size: 20vw; /* Adjust the font size of the logo */
-    font-weight: bold; /* Make the logo text bold */
-    z-index: 1; 
+        top: 120px;
+        /* Adjust the top position as needed */
+        /* left: 60px; Adjust the left position as needed */
+        color: rgb(250, 247, 247);
+        /* Set the logo text color */
+        font-size: 20vw;
+        /* Adjust the font size of the logo */
+        font-weight: bold;
+        /* Make the logo text bold */
+        z-index: 1;
     }
-  }
-  
-  /* Extra small screens (mobile phones, less than 576px) */
-  @media (max-width: 375px) {
+
+    .register-button {
+        position: absolute;
+
+        top: 40vh;
+        left: 30vw; 
+        /* Adjust the top position as needed */
+        z-index: 1;
+
+    }
+}
+
+/* Extra small screens (mobile phones, less than 576px) */
+@media (max-width: 375px) {
     .logo {
         /* position: absolute; */
-    top: 220px; /* Adjust the top position as needed */
-    /* left: 30px; Adjust the left position as needed */
-    color: rgb(230, 218, 218); /* Set the logo text color */
-    font-size: 10vw; /* Adjust the font size of the logo */
-    font-weight: bold; /* Make the logo text bold */
-    z-index: 1; 
+        top: 340px;
+        /* Adjust the top position as needed */
+        /* left: 30px; Adjust the left position as needed */
+        color: rgb(230, 218, 218);
+        /* Set the logo text color */
+        font-size: 10vw;
+        /* Adjust the font size of the logo */
+        font-weight: bold;
+        /* Make the logo text bold */
+        z-index: 1;
     }
-  }
-  
+
+    .register-button {
+        position: absolute;
+        top: 320px;
+        /* Adjust the top position as needed */
+        z-index: 1;
+
+    }
+}

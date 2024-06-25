@@ -9,10 +9,11 @@ const Landing = () => {
 
     return (
         <>
-            <Header />
             <div className="logo-container">
                 <NavBar />
             </div>
+            <Header />
+
         </>
     )
 }

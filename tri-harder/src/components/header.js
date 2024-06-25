@@ -5,8 +5,8 @@ const Header = () => {
 
     const videoRef = useRef(null);
     // const video = document.getElementById('myVideo');
-    const  startLoop = 25; // start loop at 10 seconds
-    const  endLoop = 35;  // end loop at 20 seconds
+    const startLoop = 25; // start loop at 10 seconds
+    const endLoop = 35;  // end loop at 20 seconds
     useEffect(() => {
         const video = videoRef.current;
         if (!video) return;
@@ -35,6 +35,9 @@ const Header = () => {
                     <div className="title-container">
                         <h1 className="logo">TRI-HARDER</h1>
                     </div>
+                    {/* <div className="register-button">
+                        <a class="btn btn-secondary" href="/register">Register</a>
+                    </div> */}
                     <video
                         ref={videoRef}
                         autoPlay
