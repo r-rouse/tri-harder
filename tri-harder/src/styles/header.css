@@ -108,7 +108,7 @@ video::-webkit-media-controls {
 @media (max-width: 576px) {
     .logo {
         /* position: absolute; */
-        top: 120px;
+        top: 60px;
         /* Adjust the top position as needed */
         /* left: 60px; Adjust the left position as needed */
         color: rgb(250, 247, 247);
@@ -122,7 +122,7 @@ video::-webkit-media-controls {
 
     .register-button {
         position: absolute;
-
+        margin: 1vh;
         top: 60vh;
         left: 35vw; 
         /* Adjust the top position as needed */
