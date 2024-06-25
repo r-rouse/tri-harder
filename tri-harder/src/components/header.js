@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "../styles/header.css"
-
+import movie from '../assets/TheBoys.mp4'
 const Header = () => {
 
     const videoRef = useRef(null);
@@ -32,8 +32,8 @@ const Header = () => {
                         loop
                         muted
                         playsInline
-                        className="elementor-background-video-hosted elementor-html5-video"
-                        src="https://runlongbeach.com/wp-content/uploads/2022/10/LBM-Horizontal-for-Web.mp4"
+                        className="elementor-background-video-hosted-elementor-html5-video"
+                        src={movie}
                     ></video>
 
                 </div>

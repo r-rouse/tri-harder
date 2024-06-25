@@ -10,16 +10,18 @@
     width: 100%;
     /* max-width: 800px; Adjust the max width as needed */
     overflow: hidden; /* Hide overflow */
-    background-color: aqua;
-    opacity: 0.6;
+    opacity: 0.5;
   }
   
   /* Style the video to take up the full container */
   .elementor-background-video-hosted {
     width: 1630.22px;
     width: 1630.22px;
+    object-fit: contain;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default inline spacing */
+    position: absolute;
+
   }
   /* Position the logo absolutely over the video */
   .logo {
@@ -31,7 +33,12 @@
     font-weight: bold; /* Make the logo text bold */
     z-index: 1; 
   }
+.elementor-background-video-hosted-elementor-html5-video{
+    object-fit: contain;
+    /* position: absolute; */
+    top: 1000px;
 
+}
 .header-container { 
     display: flex;
     justify-content: center;
