@@ -12,9 +12,6 @@
 }
 
 .header-container {
-    position: absolute;
-    bottom: 150;
-    /* Aligns the container at the bottom */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,6 +54,13 @@
     /* Make the logo text bold */
     z-index: 1;
 }
+.register-button {
+    position: absolute;
+    top: 90vh;
+    left: 45vw; 
+    z-index: 1;
+
+}
 
 .elementor-background-video-hosted-elementor-html5-video {
     object-fit: contain;
@@ -97,8 +101,9 @@ video::-webkit-media-controls {
     }
 
     .register-button {
-        top: 20px;
-        /* Adjust the top position as needed */
+        position: absolute;
+        top: 80vh;
+        left: 45vw; 
         z-index: 1;
 
     }
@@ -124,7 +129,7 @@ video::-webkit-media-controls {
         position: absolute;
         margin: 1vh;
         top: 60vh;
-        left: 35vw; 
+        left: 40vw; 
         /* Adjust the top position as needed */
         z-index: 1;
 
