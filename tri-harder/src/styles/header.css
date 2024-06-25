@@ -123,8 +123,8 @@ video::-webkit-media-controls {
     .register-button {
         position: absolute;
 
-        top: 40vh;
-        left: 30vw; 
+        top: 60vh;
+        left: 35vw; 
         /* Adjust the top position as needed */
         z-index: 1;
 

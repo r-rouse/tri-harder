@@ -35,9 +35,9 @@ const Header = () => {
                     <div className="title-container">
                         <h1 className="logo">TRI-HARDER</h1>
                     </div>
-                    {/* <div className="register-button">
+                    <div className="register-button">
                         <a class="btn btn-secondary" href="/register">Register</a>
-                    </div> */}
+                    </div>
                     <video
                         ref={videoRef}
                         autoPlay
