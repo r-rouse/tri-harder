@@ -32,7 +32,7 @@ const RegistrationForm = () => {
 
     emailjs.send(
       'service_udga989', // Replace with your EmailJS service ID
-      'template_byy7p4i', // Replace with your EmailJS template ID
+      'template_zfzfh0d', // Replace with your EmailJS template ID
       templateParams,
       'hPQMKbUfaX7z2aBSi' // Replace with your EmailJS user ID (public key)
     ).then((response) => {

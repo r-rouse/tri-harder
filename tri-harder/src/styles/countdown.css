@@ -6,10 +6,10 @@
     color: white; /* White text for the countdown */
     font-size: 18px; /* Font size for the countdown */
     font-weight: bold; /* Bold text for the countdown */
-    background-color: transparent; /* Semi-transparent black background */
+    background-color: transpaent; /* Semi-transparent black background */
     border-radius: 5px; /* Rounded corners for the countdown */
     padding: 10px; /* Padding for the countdown */
-    margin-top: 20px; /* Top margin for spacing */
+    /* margin-top: 20px; Top margin for spacing */
   }
   
   .countdown-item {
