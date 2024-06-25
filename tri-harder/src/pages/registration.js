@@ -45,7 +45,7 @@ const RegistrationForm = () => {
           message: '',
       });
       // Show success message
-      alert('An email has been sent to the administrator and a confirmation email was sent to confirm your registration.');
+      alert('Thanks for registering! A confirmation email has been sent to your email address');
     }, (error) => {
       console.log('FAILED...', error);
       alert('Form submission failed. Please try again.');
