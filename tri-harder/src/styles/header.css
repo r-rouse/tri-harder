@@ -1,3 +1,10 @@
+.component-container{
+    height: 100vh; /* Use viewport height to ensure it fills the screen vertically */
+    margin-bottom: 1vh;
+    display: flex; /* Ensures children are flexed within the container */
+    flex-direction: column; /* Aligns children vertically */
+}
+
 .logo-container {
     display: flex;
     flex-direction: column;
@@ -18,7 +25,6 @@
     width: 1630.22px;
     width: 1630.22px;
     object-fit: contain;
-    height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default inline spacing */
     position: absolute;
 
@@ -36,7 +42,6 @@
 .elementor-background-video-hosted-elementor-html5-video{
     object-fit: contain;
     /* position: absolute; */
-    top: 1000px;
 
 }
 .header-container { 
