@@ -39,9 +39,7 @@ const Header = () => {
 
                 </div>
             </div>
-            <div className="logo-container">
-                <NavBar />
-            </div>
+
         </div>
     )
 }

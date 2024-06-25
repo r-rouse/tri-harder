@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/IMG_7791.PNG"
+import NavBar from "../components/navBar";
 
 
 
@@ -7,9 +8,12 @@ import image from "../assets/IMG_7791.PNG"
 const Course = () => {
 
 
-    return(
+    return (
         <>
-        <img src={image} alt="course map"/>
+            <div className="logo-container">
+                <NavBar />
+            </div>
+            <img src={image} alt="course map" />
         </>
     )
 }

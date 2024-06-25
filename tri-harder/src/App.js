@@ -5,31 +5,32 @@ import Header from './components/header';
 import Footer from './components/footer';
 import RegistrationForm from './pages/registration';
 import Course from './pages/course';
+import NavBar from './components/navBar';
 
 function App() {
   return (
     <div className="App">
       <div className="page-container">
-        <Header/>
+
         <div className="content-wrap">
           <BrowserRouter>
             <Routes>
               <Route
                 path='/'
                 element={
-                  <Landing/>
+                  <Landing />
                 }
               />
               <Route
                 path='/register'
                 element={
-                  <RegistrationForm/>
+                  <RegistrationForm />
                 }
               />
-               <Route
+              <Route
                 path='/course'
                 element={
-                  <Course/>
+                  <Course />
                 }
               />
             </Routes>
