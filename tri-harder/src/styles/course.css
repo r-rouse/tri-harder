@@ -2,6 +2,7 @@
   /* Full screen image container */
   .full-screen-image {
     margin-top: 1vh;
+    margin-bottom: 1vh;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -17,7 +18,7 @@
   
   /* Full screen image styling */
   .full-screen-image img {
-    min-width: 80%;
+    min-width: 95%;
     height: auto;
     object-fit: cover; /* Cover the entire container without distortion */
   }
