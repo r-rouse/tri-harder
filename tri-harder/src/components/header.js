@@ -4,21 +4,30 @@ import movie from '../assets/TheBoys.mp4'
 const Header = () => {
 
     const videoRef = useRef(null);
-
+    // const video = document.getElementById('myVideo');
+    const  startLoop = 25; // start loop at 10 seconds
+    const  endLoop = 35;  // end loop at 20 seconds
     useEffect(() => {
         const video = videoRef.current;
-        if (video) {
-            const playPromise = video.play();
-            if (playPromise !== undefined) {
-                playPromise.then(() => {
-                    // Autoplay started
-                }).catch(error => {
-                    // Autoplay failed
-                    console.log('Autoplay failed:', error);
-                });
+        if (!video) return;
+
+        // Function to handle the looping logic
+        const onTimeUpdate = () => {
+            if (video.currentTime > endLoop) {
+                video.currentTime = startLoop;
             }
-        }
-    }, []);
+        };
+
+        video.addEventListener('timeupdate', onTimeUpdate);
+
+        // Initialize video at specific start time
+        video.currentTime = startLoop;
+
+        return () => {
+            video.removeEventListener('timeupdate', onTimeUpdate);
+        };
+    }, [startLoop, endLoop]);
+
     return (
         <div className="component-container">
             <div className="header-container">
