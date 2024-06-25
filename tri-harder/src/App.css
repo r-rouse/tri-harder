@@ -35,7 +35,6 @@ body {
 .page-container {
   display: flex;
   flex-direction: column;
-  margin: .1vw;
   min-height: 100vh;
   min-width: 100vw;
   animation: colorChange 10s infinite alternate;
@@ -44,7 +43,7 @@ body {
 }
 
 .page-footer {
-  margin-top: 50px;
+  margin-top: auto;
   min-width: 100vw;
   background-color: #e0e0e0; /* Lighter Gray */
 }
