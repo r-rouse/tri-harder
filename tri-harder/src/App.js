@@ -1,11 +1,9 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Landing from './pages/landing';
-import Header from './components/header';
 import Footer from './components/footer';
 import RegistrationForm from './pages/registration';
 import Course from './pages/course';
-import NavBar from './components/navBar';
 
 function App() {
   return (
