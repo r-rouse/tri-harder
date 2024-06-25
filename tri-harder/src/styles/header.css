@@ -1,8 +1,19 @@
-.component-container{
-    height: 100vh; /* Use viewport height to ensure it fills the screen vertically */
-    margin-bottom: 1vh;
-    display: flex; /* Ensures children are flexed within the container */
-    flex-direction: column; /* Aligns children vertically */
+.component-container {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    position: relative; /* Needed for absolute positioning inside */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide anything going out of bounds */
+}
+
+.header-container {
+    position: absolute;
+    bottom: 150; /* Aligns the container at the bottom */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-container {
@@ -14,10 +25,10 @@
 /* Container for the video and logo */
 .header-logo {
     position: relative; /* Relative positioning for the container */
-    width: 100%;
+    min-width: 100%;
     /* max-width: 800px; Adjust the max width as needed */
     overflow: hidden; /* Hide overflow */
-    opacity: 0.5;
+    opacity: 0.6;
   }
   
   /* Style the video to take up the full container */
@@ -25,6 +36,7 @@
     width: 1630.22px;
     width: 1630.22px;
     object-fit: contain;
+    height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default inline spacing */
     position: absolute;
 
@@ -41,10 +53,9 @@
   }
 .elementor-background-video-hosted-elementor-html5-video{
     object-fit: contain;
-    /* position: absolute; */
-
+    min-width: 100%;
 }
-.header-container { 
+/* .header-container { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +64,7 @@
     background-color: transparent;
     color: aliceblue;
 
-}
+} */
 
 img {
     max-width: 10vw;
