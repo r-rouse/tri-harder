@@ -22,4 +22,6 @@
     height: auto;
     object-fit: cover; /* Cover the entire container without distortion */
   }
-  
+  .def {
+    margin: 1vw;
+  }

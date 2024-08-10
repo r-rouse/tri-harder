@@ -15,17 +15,17 @@ const Course = () => {
             </div>
             <div className="full-screen-image">
                 <div> Swim 
-                    <div> Leeway to the bridge and back</div>
+                    <div className="def"> Leeway to the bridge and back</div>
                 </div>
                 <img src={image} alt="course map" />
                 <div> Bike
-                    <div> To second - to Main - to PCH - hit 12 miles and turn around</div>
+                    <div className="def"> To second - to Main - to PCH - hit 12 miles and turn around</div>
                 </div>
                 <img src={image2} alt="course map" />
                 <img src={image3} alt="course map" />
                 <img src={image4} alt="course map" />
                 <div> Run
-                    <div> Around the peninsula - down the beach path to Junipero - up to Ocean - Ocean back to Leeway</div>
+                    <div className="def"> Around the peninsula - down the beach path to Junipero - up to Ocean - Ocean back to Leeway</div>
                 </div>
 
                 <img src={image5} alt="course map" />
