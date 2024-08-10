@@ -4,6 +4,7 @@ import Landing from './pages/landing';
 import Footer from './components/footer';
 import RegistrationForm from './pages/registration';
 import Course from './pages/course';
+import Prize from './pages/prizes';
 
 function App() {
   return (
@@ -29,6 +30,12 @@ function App() {
                 path='/course'
                 element={
                   <Course />
+                }
+              />
+              <Route
+                path='/prizes'
+                element={
+                  <Prize />
                 }
               />
             </Routes>
