@@ -20,7 +20,6 @@ const NavBar = () => {
                         <a class="btn btn-secondary" href="/course">Course Info</a>
                         <a class="btn btn-secondary" href="/register">Register</a>  
                         <a class="btn btn-secondary" href="https://studio.oneplanevents.com/index.php/link-share/view?code=vkOBcZAd9OxT">Interactive Map</a>
-                        <a class="btn btn-secondary" href="/prizes">Prizes</a>
                     </div>
                     <div class='countdown-wrapper'>
                         <Countdown targetDate={targetDate} />
